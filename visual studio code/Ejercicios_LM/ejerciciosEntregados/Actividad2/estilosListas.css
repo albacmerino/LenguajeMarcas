@@ -14,6 +14,11 @@ ol.comidas2 {
 ul.peliculas {
     list-style-type: square;
 }
+
+ul.paises {
+    list-style-type: none;
+}
+
 ul.peliculas2 {
     list-style-type:disc;
 }
