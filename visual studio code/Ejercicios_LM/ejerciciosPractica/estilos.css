@@ -1,0 +1,37 @@
+#encabezado {
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+}
+
+#subtitulo {
+    border: dotted black 1px;
+}
+
+p {
+    margin-bottom: 0;
+}
+
+/*li {
+    display: inline;
+}*/
+
+ol {
+    padding-top: 50px;
+    margin-top: 30px;
+    border: dotted black 10px;
+}
+
+ul {
+    list-style-type:georgian;
+}
+
+.separado {
+    margin-right: 25vw;
+    padding-left: 10vw;
+}
+/* px -> unidad unica de medida
+    em -> cambia segun el navegador
+    vw/vh -> cambia en funcion de la ventana
+    % -> cambia segun el contenedor
+*/
