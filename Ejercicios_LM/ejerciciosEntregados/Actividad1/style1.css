@@ -1,0 +1,68 @@
+.enlace1 {
+    text-align: center;
+    height:20px;
+    font-size: 1.2em;
+    padding-top: 15px;
+}
+.texto1 {
+    color: blue;
+    text-decoration: none;
+}
+.palabra1 {
+    color: red
+}
+
+.enlace2 {
+    background: silver;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-align: center;
+    color: blue;
+    font-size: 1.2em;
+}
+.texto2 {
+    text-decoration: none;
+    color:blue;
+}
+
+.enlace3 {
+    text-align: right;
+    font-size:large;
+    font-size: 1.4em;
+    height:30px;
+}
+.texto3 {
+    text-decoration: none;
+    color: blue;
+}
+.palabra3 {
+    color: red;
+}
+.palabra3y2 {
+    color: blue;
+}
+
+.enlace4 {
+    background: silver;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-align: center;
+    color: blue;
+    font-size: 1.2em;
+}
+.texto4 {
+    text-decoration: none;
+    color: blue;
+}
+
+.contenido {
+    background-color: aqua;
+    margin-bottom: 250px;
+    margin-left: 540px;
+    margin-right: 540px;
+}
+
+.pie {
+    text-align: center;
+    margin-top: 200px;
+}

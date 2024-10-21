@@ -1,0 +1,46 @@
+#titulo {
+    font-family:sans-serif;
+    font-style: italic;
+    font-size: 1.5rem;
+    background-color:lightgreen;
+    width: fit-content;
+    margin-left: 37%;
+    padding: 1% 2% 1% 2%;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+.periodicos {
+    font-size: 1.5em;
+    color: darkorchid;
+    text-decoration: none;
+}
+
+.periodicos:hover {
+    color:darkorchid;
+    font-size: 2.5em;
+}
+
+ol {
+    list-style-type:upper-roman;
+    margin-left: 40%;
+    color:darkorchid;
+}
+
+#indice:hover {
+    color:#2EFEF7;
+    font-size: 1.5em;
+    text-decoration: none;
+    
+}
+#indice {
+    margin-left: 42%;
+    font-size: 1.5em;
+    font-weight: bold;
+    color:#FF00FF;
+    background-color: black;
+    text-decoration: none;
+    padding: 0.3% 2% 0.3% 2%;
+}
