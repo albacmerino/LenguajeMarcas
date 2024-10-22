@@ -12,6 +12,12 @@ body {
     font-family:cursive;
 }
 
+.contenido {
+    margin-bottom: 200px;
+    margin-left: 270px;
+    margin-right: 540px;
+}
+
 ul {
     list-style-type: none;
     margin-top: 5%;
@@ -36,6 +42,6 @@ li {
     color:#2EFEF7;
 }
 
-.pie {
-    text-align: center;
+footer {
+    background-color:grey;
 }
