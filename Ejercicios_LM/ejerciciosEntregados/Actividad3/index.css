@@ -12,12 +12,6 @@ body {
     font-family:cursive;
 }
 
-.contenido {
-    margin-bottom: 200px;
-    margin-left: 270px;
-    margin-right: 540px;
-}
-
 ul {
     list-style-type: none;
     margin-top: 5%;
@@ -43,5 +37,15 @@ li {
 }
 
 footer {
-    background-color:grey;
+    margin-left: 50%;
+    margin-top: 20%;
+}
+
+#pie {
+    font-size: 1.5em;
+    font-weight: bold;
+    color:#FF00FF;
+    background-color: black;
+    padding: 0.3% 2% 0.3% 2%;
+    text-decoration: none;
 }

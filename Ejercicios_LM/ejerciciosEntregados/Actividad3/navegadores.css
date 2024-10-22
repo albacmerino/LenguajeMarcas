@@ -1,10 +1,21 @@
+html {
+    height: 100%;
+    margin: 0%;
+    background-color: grey;
+}
+
+footer {
+    margin-top: 10%;
+}
+
 #titulo {
     font-style: italic;
-    font-size:larger;
+    font-size: 1.6rem;
     text-decoration:underline;
     background-color:lightpink;
     width: fit-content;
     margin-left: 40%;
+    padding: 1% 2% 1% 2%;
 }
 
 .letra {
@@ -21,6 +32,7 @@ ul {
     color:#2EFEF7;
     font-size: 1.5em;
     text-decoration: none;
+    margin-top: 40%;
     
 }
 #indice {
