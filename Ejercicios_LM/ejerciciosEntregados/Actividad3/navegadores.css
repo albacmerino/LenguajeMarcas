@@ -1,8 +1,9 @@
 html {
     height: 100%;
     margin: 0%;
-    background-color: grey;
+    background-image: url(navega.jpg);
 }
+ 
 
 footer {
     margin-top: 10%;
@@ -33,8 +34,8 @@ ul {
     font-size: 1.5em;
     text-decoration: none;
     margin-top: 40%;
-    
 }
+
 #indice {
     margin-left: 42%;
     font-size: 1.5em;
