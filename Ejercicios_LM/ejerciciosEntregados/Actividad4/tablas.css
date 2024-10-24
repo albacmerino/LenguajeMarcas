@@ -3,7 +3,24 @@ table, th, td {
     border-collapse: collapse;
 }
 
+.tabla1 {
+    font-weight: bolder;
+    text-align: center;
+}
 .imagen {
     text-align: center;
     font-weight: bolder;
+}
+
+#cabeceraTabla2 {
+    font-weight: bolder;
+    text-align: center;
+}
+
+#pieTabla2 {
+    font-weight: bolder;
+}
+
+#pie2Tabla2 {
+    text-align: center;
 }
