@@ -1,26 +1,48 @@
-table, th, td {
+.ejercicio1 th, .ejercicio1 tr, .ejercicio1 td, .ejercicio1 {
     border: 0.1px solid black;
     border-collapse: collapse;
 }
 
-.tabla1 {
+.ejercicio1 .tabla1 {
     font-weight: bolder;
     text-align: center;
 }
-.imagen {
+.ejercicio1 .imagen {
     text-align: center;
-    font-weight: bolder;
-}
-
-#cabeceraTabla2 {
-    font-weight: bolder;
-    text-align: center;
-}
-
-#pieTabla2 {
     font-weight: bolder;
 }
 
-#pie2Tabla2 {
+.ejercicio2 tr, .ejercicio2 td, .ejercicio2{
+    border: 0.1px solid lightslategrey;
+    border-collapse: collapse;
+}
+
+.ejercicio2 .cabeceraTabla2 {
+    font-weight: bolder;
     text-align: center;
+}
+
+.ejercicio2 .pieTabla2 {
+    font-weight: bolder;
+}
+
+.ejercicio2 .pie2Tabla2 {
+    text-align: center;
+}
+
+.ejercicio3 tr, .ejercicio3 td{
+    border: 1px solid blue;
+}
+
+.ejercicio3 {
+    border-collapse: collapse;
+    border: 5px solid blue;
+}
+.pie {
+    font-size: 1.5em;
+    font-weight: bold;
+    color:#FF00FF;
+    background-color: black;
+    padding: 0.3% 2% 0.3% 2%;
+    text-decoration: none;
 }
