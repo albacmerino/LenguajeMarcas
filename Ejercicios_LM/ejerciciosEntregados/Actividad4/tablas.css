@@ -43,6 +43,18 @@
     font-weight: bold;
     color:#FF00FF;
     background-color: black;
-    padding: 0.3% 2% 0.3% 2%;
+    padding: 5%;
     text-decoration: none;
+}
+.pie2 {
+    font-size: 1.5em;
+    font-weight: bold;
+    color:#FF00FF;
+    background-color: black;
+    padding: 5%;
+    text-decoration: none;
+    display: inline;
+}
+.enlaceIndice {
+    padding-left: 150%;
 }

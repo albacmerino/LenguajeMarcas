@@ -1,4 +1,114 @@
-.contenido , .contenido tr, .contenido td, .contenido th{
-    border: 0.1px solid black;
+.tablaExterior {
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-top: 2px solid black;
+    width: 55%;
+    background-color: #CEF6CE;
+}
+/*Titulos menos Proyecto*/
+.titulos {
+    margin-left: 3%;
+}
+/*Tabla habilidades*/
+.tablaHabilidades {
+    text-align: justify;
+}
+.listaHabilidades {
+    list-style-type:square;
+}
+/**/
+.listaIdiomas {
+    list-style-type: square;
+}
+/*Tabla estudios cursados*/
+.tablaEstudios {
+    background-color: #FFFFFF;
+}
+/*tabla + columnas + encabezados*/
+.tablaEstudios, .tablaEstudios tr, .tablaEstudios th {
+    border: 1px solid black;
     border-collapse: collapse;
+    width: 80%;
+}
+/*filas*/
+.tablaEstudios td {
+    padding: 2px;
+    text-align: center;
+}
+.cabeceraEstudios {
+    background-color:#2EFE64;
+    font-size: 1em;
+    padding: 1%;
+}
+.columnaIzqEstudios {
+    text-align: center;
+    border: 1px solid black;
+}
+/*Tabla empleos anteriores*/
+.tablaLaboral, .tablaLaboral tr, .tablaLaboral td {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 0.2% ;
+    margin: 1%;
+}
+.columnaIzqLaboral{
+    width: 20%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.05em;
+    color:rgb(59, 59, 59);
+    background-color:#2EFE64;
+}
+.columnaDerLaboral {
+    text-align: justify;
+    background-color: #FFFFFF;
+}
+/*Tabla sobre los proyectos*/
+.tablaProyecto {
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    border-collapse: collapse;
+    width: 55%;
+}
+.columnaIzqProyecto {
+    text-align: center;
+}
+.columnaDerProyecto {
+    padding: 1%;
+    text-align: justify;
+}
+/*tabla + columnas*/
+.subtablaProyecto , .subtablaProyecto tr{
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    background-color:#FFFFFF;
+    width: 55%;
+}
+/*encabezados + filas*/
+.subtablaProyecto th, .subtablaProyecto td {
+    border: 1px solid black;
+    padding-right: 4%;
+}
+.subtablaProyecto th {
+    background-color: #2EFE64;
+    border-radius: 5px;
+}
+.enlaceProyecto {
+    text-decoration: dotted;
+    color:rgb(59, 59, 59);
+    font-weight: bold;
+}
+
+footer {
+    margin-left: 45.5%;
+}
+.pie {
+    font-size: 1.5em;
+    font-weight: bold;
+    color:#FF00FF;
+    background-color: black;
+    padding: 0.3% 2% 0.3% 2%;
+    text-decoration: none;
 }
