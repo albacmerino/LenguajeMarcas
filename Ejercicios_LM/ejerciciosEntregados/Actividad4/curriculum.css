@@ -1,0 +1,4 @@
+.contenido , .contenido tr, .contenido td, .contenido th{
+    border: 0.1px solid black;
+    border-collapse: collapse;
+}
