@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario genérico de HTML5</title>
+    <link rel="stylesheet" href="/Ejercicios_LM/ejerciciosEntregados/Actividad5/formulario.css">
+</head>
+<body>
+    <header><h1>Alba Carrobles 1º DAM</h1></header>
+    <main>
+        <form action="" method="get">
+            <fieldset>
+                <legend>Inputs básicos: </legend>
+                <p>CAMPOS DE ENTRADA (INPUT)</p>
+                <table>
+                    <tr>
+                        <td><label for="ciclo">Ciclo Formativo</label></td>
+                        <td><input  type="text" id="ciclo" name="ciclo" maxlength="3"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="oculto">Oculto: </label></td>
+                        <td><input type="hidden" id="oculto" name="oculto"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="clave">Clave: </label></td>
+                        <td><input type="password" id="clave" name="clave"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="color">Color: </label></td>
+                        <td><input type="color" id="color" name="color"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="fecha">Fecha: </label></td>
+                        <td><input type="date" id="fecha" name="fecha"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="fhora">Fecha Hora: </label></td>
+                        <td><input type="datetime" id="fhora" name="fhora"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="fhoral">Fecha Hora local: </label></td>
+                        <td><input type="datetime-local" id="fhoral" name="fhoral"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="hora">Hora: </label></td>
+                        <td><input type="time" id="hora" name="hora"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="mes">Mes: </label></td>
+                        <td><input type="month" id="mes" name="mes"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="semana">Semana: </label></td>
+                        <td><input type="week" id="semana" name="semana"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="correo">Correo electrónico: </label></td>
+                        <td><input type="email" id="correo" name="correo"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="numero">Número: </label></td>
+                        <td><input type="number" id="numero" name="numero" value="9"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="rango">Rango: </label></td>
+                        <td><input type="range" id="rango" name="rango"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="telefono">Teléfono: </label></td>
+                        <td><input type="tel" id="telefono" name="telefono"></td>
+                    <tr>
+                        <td><label for="web">Dirección web: </label></td>
+                        <td><input type="web" id="web" name="web"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="archivo">Archivo: </label></td>
+                        <td><input type="file" id="archivo" name="archivo"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="imagen">Imagen:</label></td>
+                        <td><input type="image" src="./img/libros.gif"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="paginaweb">Página web: </label></td>
+                        <td><input list="webs" id="paginaweb" name="paginaweb">
+                        <datalist id="webs">
+                            <option value="">Aplicaciones Web</option>
+                        </datalist>
+                        </td>
+                    </tr>
+            </fieldset>
+        </form>
+            
+    </main>
+    <footer></footer>
+</body>
+</html>
