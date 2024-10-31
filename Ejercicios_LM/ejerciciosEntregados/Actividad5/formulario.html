@@ -7,7 +7,10 @@
     <link rel="stylesheet" href="/Ejercicios_LM/ejerciciosEntregados/Actividad5/formulario.css">
 </head>
 <body>
-    <header><h1>Alba Carrobles 1º DAM</h1></header>
+    <header>
+        <h1>Alba Carrobles 1º DAM</h1>
+        <h2>Formulario genérico de HTML5.</h2>
+    </header>
     <main>
         <form action="" method="get">
             <fieldset>
@@ -15,79 +18,95 @@
                 <p>CAMPOS DE ENTRADA (INPUT)</p>
                 <table>
                     <tr>
-                        <td><label for="ciclo">Ciclo Formativo</label></td>
+                        <td><label for="ciclo">Ciclo Formativo: (type text)</label></td>
                         <td><input  type="text" id="ciclo" name="ciclo" maxlength="3"></td>
                     </tr>
                     <tr>
-                        <td><label for="oculto">Oculto: </label></td>
+                        <td><label for="oculto">Oculto: (type hidden)</label></td>
                         <td><input type="hidden" id="oculto" name="oculto"></td>
                     </tr>
                     <tr>
-                        <td><label for="clave">Clave: </label></td>
+                        <td><label for="clave">Clave: (type password)</label></td>
                         <td><input type="password" id="clave" name="clave"></td>
                     </tr>
                     <tr>
-                        <td><label for="color">Color: </label></td>
+                        <td><label for="color">Color: (type color)</label></td>
                         <td><input type="color" id="color" name="color"></td>
                     </tr>
                     <tr>
-                        <td><label for="fecha">Fecha: </label></td>
+                        <td><label for="fecha">Fecha: (type date)</label></td>
                         <td><input type="date" id="fecha" name="fecha"></td>
                     </tr>
                     <tr>
-                        <td><label for="fhora">Fecha Hora: </label></td>
+                        <td><label for="fhora">Fecha Hora: (type datetime)</label></td>
                         <td><input type="datetime" id="fhora" name="fhora"></td>
                     </tr>
                     <tr>
-                        <td><label for="fhoral">Fecha Hora local: </label></td>
+                        <td><label for="fhoral">Fecha Hora local: (type datetime-local)</label></td>
                         <td><input type="datetime-local" id="fhoral" name="fhoral"></td>
                     </tr>
                     <tr>
-                        <td><label for="hora">Hora: </label></td>
+                        <td><label for="hora">Hora: (type time)</label></td>
                         <td><input type="time" id="hora" name="hora"></td>
                     </tr>
                     <tr>
-                        <td><label for="mes">Mes: </label></td>
+                        <td><label for="mes">Mes: (type month)</label></td>
                         <td><input type="month" id="mes" name="mes"></td>
                     </tr>
                     <tr>
-                        <td><label for="semana">Semana: </label></td>
+                        <td><label for="semana">Semana: (type week)</label></td>
                         <td><input type="week" id="semana" name="semana"></td>
                     </tr>
                     <tr>
-                        <td><label for="correo">Correo electrónico: </label></td>
+                        <td><label for="correo">Correo electrónico: (type email)</label></td>
                         <td><input type="email" id="correo" name="correo"></td>
                     </tr>
                     <tr>
-                        <td><label for="numero">Número: </label></td>
-                        <td><input type="number" id="numero" name="numero" value="9"></td>
+                        <td><label for="numero">Número: (type number)</label></td>
+                        <td><input type="number" id="numero" name="numero" value="6"></td>
                     </tr>
                     <tr>
-                        <td><label for="rango">Rango: </label></td>
+                        <td><label for="rango">Rango: (type range)</label></td>
                         <td><input type="range" id="rango" name="rango"></td>
                     </tr>
                     <tr>
-                        <td><label for="telefono">Teléfono: </label></td>
+                        <td><label for="telefono">Teléfono: (type tel)</label></td>
                         <td><input type="tel" id="telefono" name="telefono"></td>
                     <tr>
-                        <td><label for="web">Dirección web: </label></td>
+                        <td><label for="web">Dirección web: (type web)</label></td>
                         <td><input type="web" id="web" name="web"></td>
                     </tr>
                     <tr>
-                        <td><label for="archivo">Archivo: </label></td>
+                        <td><label for="archivo">Archivo: (type file)</label></td>
                         <td><input type="file" id="archivo" name="archivo"></td>
                     </tr>
                     <tr>
-                        <td><label for="imagen">Imagen:</label></td>
+                        <td><label for="imagen">Imagen: (type image)</label></td>
                         <td><input type="image" src="./img/libros.gif"></td>
                     </tr>
                     <tr>
-                        <td><label for="paginaweb">Página web: </label></td>
-                        <td><input list="webs" id="paginaweb" name="paginaweb">
+                        <td><label for="asignaturas2">Elige una asignatura:</label></td>
+                        <td>
+                            <select id="asignaturas2" size="2">
+                                <option>Aplicaciones Web</option>
+                                <option>Seguridad</option>
+                                <option>Servicios en red</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="eleccionasignaturas">Elige una provincia: (type list)</label></td>
+                        <td><input list="webs" id="asignaturas" name="eleccionasignaturas">
                         <datalist id="webs">
-                            <option value="">Aplicaciones Web</option>
+                            <option>Madrid</option>
+                            <option>Castilla-León</option>
+                            <option>Valencia</option>
                         </datalist>
                         </td>
+                    </tr>
+                    <tr>
+                        <td><label for="areatexto">Comentarios: (type textarea)</label></td>
+                        <td><textarea cols="50" rows="6" placeholder="Escriba aquí su comentario..."></textarea></td>
                     </tr>
             </fieldset>
         </form>
