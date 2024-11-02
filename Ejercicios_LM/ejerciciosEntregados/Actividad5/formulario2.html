@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio de formulario.</title>
+    <link rel="stylesheet" href="/Ejercicios_LM/ejerciciosEntregados/Actividad5/formulario2.css">
+</head>
+
+<body>
+    <header>
+        <h1>Ejercicio de Formulario</h1>
+    </header>
+    <main>
+        <form action="" method="get">
+            <fieldset>
+                <legend>Datos Personales</legend>
+                <table>
+                    <tr>
+                        <td><label for="nombre">Nombre y apellidos: </label>
+                            <input type="text" id="nombre" name="nombre" maxlength="30" size="50" required><br><br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="correo">Correo electrónico: </label>
+                            <input type="email" id="correo" name="correo" maxlength="30" size="50" required><br><br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="idiomas">Idiomas que hablas: </label>
+                            <select id="idiomas" size="4">
+                                <option value="Castellano">Castellano</option>
+                                <option value="Inglés">Inglés</option>
+                                <option value="Alemán" selected="Alemán">Alemán</option>
+                                <option value="Francés">Francés</option>
+                                <option value="Árabe">Árabe</option>
+                                <option value="Chino">Chino</option>
+                                <option value="Otro">Otro</option>
+                            </select><br><br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="enlace">URL: </label>
+                            <input type="url" id="enlace" name="enlace"
+                                placeholder="Escribe la URL de tu página web personal" size="50"><br><br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label>Fecha de nacimiento: </label>
+                            <input type="date"><br><br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="tlfno">Teléfono de contacto: </label>
+                            <input type="tel" id="tlfno" name="tlfno"><br><br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="descripcion">Descripción personal: </label>
+                            <textarea id="descripcion" name="descripción" rows="7" cols="50"
+                                placeholder="Introduce una descripción de tu personalidad y porqué deberían contratarte"></textarea><br><br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label>Conocimientos de HTML5 y CSS3 (mín-10, máx 10)</label>
+                            <input type="range" name="HTML" min="-10" max="10" step="0,5" value="0"><br><br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="color">Color que te identifica: </label>
+                            <input type="color" id="color" name="color" value="#FF0000"><br><br><br><br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="opciones"><input type="checkbox" checked>
+                                <label>Dispuesto a viajar por trabajo.</label>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="opciones2"><input type="radio">
+                                <label>Dentro de la Comunidad de Madrid</label>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="opciones2"><input type="radio">
+                                <label>A otra provincia</label>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="opciones2"><input type="radio">
+                                <label>A país europeo</label>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="opciones2"><input type="radio">
+                                <label>A Estados Unidos</label>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="opciones2"><input type="radio">
+                                <label>A América Latina</label>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="opciones2"><input type="radio">
+                                <label>A China</label>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="opciones2"><input type="radio">
+                                <label>A Rusia</label>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="opciones2"><input type="radio">
+                                <label>A Arabia Saudí</label>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="opciones2"><input type="radio">
+                                <label>A cualquier sitio</label>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="opciones"><input type="checkbox">
+                                <label>Dispuesto a mudarte por trabajo.</label>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="opciones2"><input type="radio">
+                                <label>Dentro de la Comunidad de Madrid</label>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="opciones2"><input type="radio">
+                                <label>A otra provincia</label>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="opciones2"><input type="radio">
+                                <label>A otro país</label>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="botones">
+                                <input type="submit" value="Enviar" id="Enviar">
+                                <input type="reset" value="Limpiar" id="Limpiar">
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+        </form>
+    </main>
+    <footer>
+        <table>
+            <tr>
+              <th><p>
+                <a
+                  href="../../../index.html"
+                  title="Volver al índice del repositorio"
+                  class="pie"
+                  >GIT</a>
+              </p></th>
+            </tr>
+          </table>
+    </footer>
+</body>
+
+</html>

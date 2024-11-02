@@ -1,0 +1,43 @@
+body {
+    background-color: cornsilk;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1 {
+    color: blueviolet;
+    text-align: center;
+}
+fieldset {
+    background-color: gainsboro;
+}
+table {
+    width: 100%;
+}
+#nombre {
+    background-color: beige;    
+}
+#correo{
+    background-color: beige;
+}
+#tlfno {
+    background-color: beige;
+}
+#descripcion {
+    background-color: aquamarine;
+}
+.opciones {
+    margin-left: 5%;
+}
+.opciones2 {
+    margin-left: 8.5%;
+}
+#Enviar {
+    background-color: blueviolet;
+    color: #f7f9f9;
+}
+#Limpiar {
+    background-color: blueviolet;
+    color: #f7f9f9;
+}
+.botones {
+    text-align: center;
+}
