@@ -1,4 +1,13 @@
+label {
+    font-weight: bold;
+}
 form {
     display: flex;
     justify-self: center;
+}
+input.obligatorio:invalid {
+    border-color: red;
+}
+input.obligatorio:valid {
+    border-color: green;
 }
