@@ -1,0 +1,13 @@
+input.obligatorio:invalid {
+    border-color: orangered;
+}
+input.obligatorio::first-letter {
+    text-transform: uppercase;
+}
+legend {
+    color: blue;
+}
+footer {
+    margin-top: 5%;
+    margin-left: 3%;
+}

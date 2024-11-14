@@ -13,34 +13,53 @@
         <h1>Ficha de datos</h1>
     </header>
     <main>
-        */get pone la información de la URL/*
+        <!--el método get, pone la información en la URL-->
         <form action="" method="get">
             <fieldset>
                 <legend>Toma de datos</legend>
-                <label for="nombre">Nombre: </label>
-                <input type="text" id="nombre" required>
-                <br>
-                <label>Primer apellido: </label>
-                <input type="text">
-                <br>
-                <label>Segundo apellido: </label>
-                <input type="text">
-                <br>
-                <label></label>
-                <input type="">
-                <br>
-                <label></label>
-                <input type="">
-                <br>
-                <label></label>
-                <input type="">
-                <br>
-                <label></label>
-                <input type="">
+                <table>
+                    <tr>
+                        <td><label for="nombre">Nombre: </label></td>
+                        <td><input class="obligatorio" type="text" id="nombre" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="apellido1">Primer apellido: </label></td>
+                        <td><input class="obligatorio" type="text" id="apellido1" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="apellido2">Segundo apellido: </label></td>
+                        <td><input class="obligatorio" type="text" id="apellido2" required></td>
+                    </tr>
+                    <tr>
+                        <td><label>Domicilio: </label></td>
+                        <td><input type="text"></td>
+                    </tr>
+                    <tr>
+                        <td><label>Sexo:</label></td>
+                        <td>Hombre<input type="radio" value="M">
+                            Mujer<input type="radio" value="F"></td>
+                    </tr>
+                    <tr>
+                        <td><label>Series favoritas: </label></td>
+                        <td>Aguila Roja<input type="checkbox">
+                            Isabel<input type="checkbox">
+                            Homeland<input type="checkbox">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><input type="submit" value="Enviar datos" id="Enviar"></td>
+                        <td><input type="reset" value="Borrar datos" id="Limpiar"></td>
+                    </tr>
+                </table>
             </fieldset>
         </form>
     </main>
-    <footer></footer>
+    <footer>
+        <div><a href="../../../index.html">Volver al índice de Git</href>
+        </div>
+        <br>
+        <div><a href="./mexicano.html">Siguiente formulario</a></div>
+    </footer>
 </body>
 
 </html>
