@@ -7,7 +7,45 @@
     <link rel="stylesheet" href="./mexicano.css">
 </head>
 <body>
-    <header></header>
+    <header>
+        <h1>Productos Mexicanos de Limpieza "PROLIM"</h1>
+        <form action="" method="get">
+            <label for="productos">Entrada (elija sólo una línea de productos):</label>
+            <input list="productos2" id="productos" name="eleccionaproducto">
+                        <datalist id="productos2">
+                            <option value="Ninguna"></option>
+                            <option value="Cocina"></option>
+                            <option value="Lavandería"></option>
+                            <option value="Hábitat"></option>
+                            <option value="Albercas"></option>
+                            <option value="Industrial"></option>
+                        </datalist>
+            <label for="segundo">Segundo (puede elegir más de un producto):</label>
+            <select id="segundo">
+                <option>Ninguno</option>
+                <option>Tergen (Detergente lavaloza neutro uso normal)</option>
+                <option>Spotless (Detergente líquido para máquina lavaloza)</option>
+                <option>Track (Pasta Multiusos)</option>
+                <option>Triton (Prelavador alcalino líquido)</option>
+                <option>DINAMO (Desengrasante Emulsificante)</option>
+                <option>Triton (Prelavador alcalino líquido)</option>
+                <option>Crystal (Limpia vidrios)</option>
+            </select>
+            <label for="cocina">Cocina (elija sólo un producto):</label>
+            <input list="cocina2" id="cocina" name="eleccionacocina">
+            <datalist id="cocina2">
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+            </datalist>
+            <label></label>
+        </form>
+    </header>
     <main></main>
     <footer></footer>
 </body>
