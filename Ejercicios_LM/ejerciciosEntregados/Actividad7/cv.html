@@ -7,8 +7,39 @@
     <link rel="stylesheet" href="./cv.css">
 </head>
 <body>
-    <header></header>
-    <main></main>
+    <header>
+        <h1>Rellena tu CV</h1>
+    </header>
+    <main>
+        <label for="nombre">Nombre</label>
+        <div><input type="text" id="nombre" required></div>
+        <br>
+        <label for="apellidos">Apellidos</label>
+        <div><input type="text" id="apellidos" required></div>
+        <br>
+        <label for="clave">Contraseña</label>
+        <div><input type="password" id="clave" required></div>
+        <br>
+        <label for="dni">DNI</label>
+        <div><input type="number" id="dni" required></div>
+        <br>
+        <label for="opciones">Sexo</label>
+        <div><input type="radio" id="hombre" name="sexo" checked>
+        <label for="hombre">Hombre</label></div>
+        <div><input type="radio" id="mujer" name="sexo">
+        <label for="mujer">Mujer</label></div>
+        <br>
+        <label for="foto">Incluir mi foto</label>
+        <input type="file" id="foto" name="foto2" required>
+        <br><br>
+        <input type="checkbox" checked required>
+        <label for="boletin">Suscribirme al boletín de novedades</label>
+        <br><br>
+        <label for="botones">
+            <input type="submit" value="Guardar datos" id="botones">
+            <input type="reset" value="Borrar los datos introducidos" id="botones">
+        </label>
+    </main>
     <footer></footer>
 </body>
 </html>
