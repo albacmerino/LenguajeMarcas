@@ -1,0 +1,7 @@
+input.obligatorio:invalid {
+    border-color: pink;
+}
+footer {
+    margin-top: 5%;
+    margin-left: 3%;
+}

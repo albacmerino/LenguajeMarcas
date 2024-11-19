@@ -7,8 +7,82 @@
     <link rel="stylesheet" href="./validar.css">
 </head>
 <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
+    <main>
+        <form action="" method="get">
+            <h1>Un formulario en HTML5</h1>
+            <h3>- Ahora el nuevo estandar HTML 5 validaciones sin javascript</h3>
+            <h3>- HTML 5 incluye nuevas etiquetas para el uso de Formularios</h3>
+            <table class="tabla1">
+                <tr>
+                    <td><label for="nombre">Nombre:</label></td>
+                    <td><input type="text" id="nombre" placeholder="nombre de usuario" required></td>
+                </tr>
+                <tr>
+                    <td><label for="correo">Correo electrónico:</label></td>
+                    <td><input type="email" id="correo" placeholder="user@dominio.com" required></td>
+                </tr>
+                <tr>
+                    <td><label for="url">URL:</label></td>
+                    <td><input type="web" id="url" placeholder="escribe la URL de tu web" required></td>
+                <tr>
+                    <td><label for="fecha">Fecha:</label></td>
+                    <td><input type="date" id="fecha"></td>
+                </tr>
+                <tr>
+                    <td><label for="tiempo">Tiempo:</label></td>
+                    <td><input type="time" id="tiempo"></td>
+                </tr>
+                <tr>
+                    <td><label for="fechayhora">Fecha y hora Nacto:</label></td>
+                    <td><input type="datetime" id="fechayhora"></td>
+                </tr>
+                <tr>
+                    <td><label for="mes">Mes:</label></td>
+                    <td><input type="month" id="mes"></td>
+                </tr>
+                <tr>
+                    <td><label for="semana">Semana:</label></td>
+                    <td><input type="week" id="semana"></td>
+                </tr>
+                <tr>
+                    <td><label for="num">Num(min-10, max 10):</label></td>
+                    <td><input type="number" id="num" value="0" min="-10" max="10"></td>
+                </tr>
+                <tr>
+                    <td><label for="int">Int(min 0, max 10):</label></td>
+                    <td><input type="range" min="0" max="10"></td>
+                </tr>
+                    <td><label for="tlfn">Teléfono:</label></td>
+                    <td><input type="tel" id="tlfn" pattern="[6,7,9]"></td>
+                </tr>
+                <tr>
+                    <td><label for="buscar">Término de búsqueda:</label></td>
+                    <td><input type="text" id="buscar"></td>
+                </tr>
+                <tr>
+                    <td><label for="color">Color favorito:</label></td>
+                    <td><input type="color" id="color"></td>
+                </tr>
+                <tr>
+                    <td><label for></label></td>
+                    <td><input type=""></td>
+                </tr>
+            </table>
+            <table class="tabla2">
+                <tr>
+                    <td>
+                        <input type="submit" value="enviar" id="enviar">
+                        <input type="reset" value="limpiar" id="borrar">
+                        <input type="button" value="Cerrar" id="cerrar">
+                        <input type="button" value=">>formulario" id="formu">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </main>
+    <footer>
+        <br>
+        <div><a href="../../../index.html">Volver al índice de Git</href></div>
+    </footer>
 </body>
 </html>

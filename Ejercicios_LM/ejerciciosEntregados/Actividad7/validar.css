@@ -1,0 +1,21 @@
+form {
+    margin-left: 30%;
+    margin-right: 35%;
+    height: 80%;
+    background-color: rgb(246, 207, 157);
+}
+table {
+    margin-left: 10%;
+    width: 80%;
+    background-color: rgb(230, 166, 48);
+}
+.tabla1 {
+    border: 18px solid rgb(168, 121, 32);
+}
+.tabla2 {
+    background-color: rgb(246, 207, 157);
+    margin-left: 20%;
+}
+footer {
+    margin-left: 42%;
+}
