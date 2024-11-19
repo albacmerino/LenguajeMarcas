@@ -21,7 +21,7 @@
         <div><input type="password" id="clave" required></div>
         <br>
         <label for="dni">DNI</label>
-        <div><input class="obligatorio" type="text" id="dni" required pattern="[0-9]{0,8}[A-Z][a-z]{1}"></div>
+        <div><input class="obligatorio" type="text" id="dni" required maxlength="9" pattern="[0-9]{8}+[A-Z]{1}"></div>
         <br>
         <label for="opciones">Sexo</label>
         <div><input type="radio" id="hombre" name="sexo" checked>
