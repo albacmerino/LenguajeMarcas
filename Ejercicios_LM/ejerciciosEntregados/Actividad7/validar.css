@@ -1,3 +1,6 @@
+h1 {
+    text-align: center;
+}
 form {
     margin-left: 30%;
     margin-right: 35%;
@@ -15,6 +18,7 @@ table {
 .tabla2 {
     background-color: rgb(246, 207, 157);
     margin-left: 20%;
+    margin-top: 3%;
 }
 footer {
     margin-left: 42%;
