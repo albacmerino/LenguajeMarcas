@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validaciones</title>
+    <link rel="stylesheet" href="./validar2.css">
+</head>
+
+<body>
+    <main>
+        <form action="" method="get">
+            <!----->
+            <h1>Un formulario en HTML5</h1>
+            <h3>- Ahora el nuevo estandar HTML 5 validaciones sin javascript</h3>
+            <h3>- HTML 5 incluye nuevas etiquetas para el uso de Formularios</h3>
+            <div class="tabla1">
+
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" placeholder="nombre de usuario" required>
+                <br>
+                <label for="correo">Correo electrónico:</label>
+                <input type="email" id="correo" placeholder="user@dominio.com" required>
+                <br>
+                <label for="url">URL:</label>
+                <input type="web" id="url" placeholder="escribe la URL de tu web" required>
+                <br>
+                <label for="fecha">Fecha:</label>
+                <input type="date" id="fecha">
+                <br>
+                <label for="tiempo">Tiempo:</label>
+                <input type="time" id="tiempo">
+                <br><br>
+                <label for="fechayhora">Fecha y hora Nacto:</label>
+                <input type="datetime" id="fechayhora">
+                <br><br>
+                <label for="mes">Mes:</label>
+                <input type="month" id="mes">
+                <br><br>
+                <label for="semana">Semana:</label>
+                <input type="week" id="semana">
+                <br><br>
+                <label for="num">Num(min-10, max 10):</label>
+                <input type="number" id="num" value="0" min="-10" max="10">
+                <br><br>
+                <label for="int">Int(min 0, max 10):</label>
+                <input type="range" min="0" max="10">
+                <br><br>
+                <label for="tlfn">Teléfono:</label>
+                <input type="tel" id="tlfn" pattern="[6,7,9]">
+                <br><br>
+                <label for="buscar">Término de búsqueda:</label>
+                <input type="text" id="buscar">
+                <br><br>
+                <label for="color">Color favorito:</label>
+                <input type="color" id="color">
+                <br><br>
+            </div>
+            <div class="botones">
+                <input type="submit" value="enviar" id="enviar">
+                <input type="reset" value="limpiar" id="borrar">
+                <input type="button" value="Cerrar" id="cerrar">
+                <input type="button" value=">>formulario" id="formu">
+            </div>
+        </form>
+    </main>
+    <footer>
+        <br>
+        <div class="footer"><a href="../../../index.html">Volver al índice de Git</href>
+            <br>
+            &copy;Derechos reservados
+        </div>
+    </footer>
+</body>
+
+</html>
