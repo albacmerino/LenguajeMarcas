@@ -1,0 +1,57 @@
+/* Resaltar texto de código incoporado */
+code {
+  color: pink;
+  font-weight: bold;
+}
+
+/* La división contendora de las otras con posición relativa */
+#contenedor {
+  position: relative;
+  height: 90px;
+}
+
+/* Cada división posición absoluta, tamaño y colores diferentes */
+#naranja {
+  position: absolute;
+  left: 44%;
+  top: 30px;
+  width: 10%;
+  height: 50px;
+  background-color: #cc9933;
+  border: black 1px outset;
+}
+
+#malva {
+  position: absolute;
+  left: 42%;
+  top: 20px;
+  width: 10%;
+  height: 50px;
+  background-color: #6666ff;
+  border: black 1px outset;
+}
+
+#rojo {
+  position: absolute;
+  left: 45%;
+  top: 0;
+  width: 10%;
+  height: 50px;
+  background-color: #993366;
+  border: black 1px outset;
+}
+
+#verde {
+  position: absolute;
+  left: 48%;
+  top: 10px;
+  width: 10%;
+  height: 50px;
+  background-color: #009966;
+  border: black 1px outset;
+}
+
+/* Al pasar el ratón por encima traer al frente */
+.ejem_solapado:hover {
+  z-index: 10;
+}

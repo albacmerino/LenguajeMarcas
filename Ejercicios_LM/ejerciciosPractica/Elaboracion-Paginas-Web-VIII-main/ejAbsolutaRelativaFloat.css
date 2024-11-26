@@ -1,0 +1,21 @@
+.box {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background: red;
+    color: white;
+  }
+  /* Sin position: Uno tras otro. 
+   Con position: relative;, DESPLAZA respecto a la izquierda y derecha la distancia, por ej left que le diga,.
+   Si cambio a absolute: posición respecto al contenedor y NO ocupa lugar */
+  #two {
+    
+    top: 20px;
+    left: 20px;
+    background: blue;
+  }
+
+  /*La imagen flota sobre el texto */
+  section img {
+     float:left;
+  }

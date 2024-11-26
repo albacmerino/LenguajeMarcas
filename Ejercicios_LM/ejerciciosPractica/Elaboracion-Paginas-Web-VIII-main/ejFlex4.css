@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Contenedor */
+.contenedor {
+  align-items: flex-end;
+  background-color: blanchedalmond;
+  display: flex;
+  height: 300px;
+  justify-content: center;
+  margin: 20px auto;
+  padding: 2em;
+  width: 80%;
+}
+
+.contenedor > div {
+  background-color: aquamarine;
+  border: 1px solid black;
+  height: 100px;
+  width: 25%;
+}
+
+/* Alineación vertical individual (align-self: center;) o probar (align-self: flex-start;) al segundo elemento */
+.contenedor > div:nth-child(2) {
+  
+}

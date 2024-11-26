@@ -1,0 +1,55 @@
+/* Sólo añadiendo la propiedad display:flex; los distribuye en forma de bloques.
+Con flex sólo me hace el primer ajuste. */
+.contenedor {
+    background-color: pink;
+    
+    align-items: stretch;
+    height: 200px;
+    margin: 20px auto;
+    padding: 10px;
+    width: 60%;
+}
+
+
+.contenedor div {
+    background-color:blue;
+    border: 1px solid black;
+    height: 50px;
+}
+
+/* Modificar dirección por defecto: row */
+/* 
+flex-direction: row-reverse;
+flex-direction: column;
+*/
+
+/* Controlar si los elementos no caben , por defecto en una línea*/
+/*
+flex-wrap: wrap;
+flex-wrap: wrap-reverse;
+*/
+
+/*Juntar propiedades anteriores */
+/*    flex-flow: row wrap; */
+
+/*Modificar la alineación horinzontal */
+/* 
+justify-content: flex-end;
+justify-content: center;
+justify-content: space-between;
+justify-content: space-around;
+
+*/
+
+/*Modificar la alineación vertical */
+/*
+   align-items: center;
+   align-items: stretch; /* Tengo que quitarle la altura fija a los contenedores hijos */
+
+/* */
+
+/* Si tengo varias líneas. Añadir divs o ajustar pantalla. */
+/*
+    align-content: center;
+    align-content: flex-end;
+*/
