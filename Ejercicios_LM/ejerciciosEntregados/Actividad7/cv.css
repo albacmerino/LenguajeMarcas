@@ -1,6 +1,11 @@
-input.obligatorio:invalid {
+#obligatorio:invalid {
     border-color: pink;
 }
+/*validaciones*/
+#obligatorio2:invalid {
+    border-color: pink;
+}
+
 footer {
     margin-top: 5%;
     margin-left: 3%;

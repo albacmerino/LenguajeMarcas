@@ -22,8 +22,8 @@
                         <td><input  type="text" id="ciclo" name="ciclo" maxlength="3"></td>
                     </tr>
                     <tr>
-                        <td><label for="oculto">Oculto: (type hidden)</label></td>
-                        <td><input type="hidden" id="oculto" name="oculto"></td>
+                        <td><label for="escondido">Oculto: (type hidden)</label></td>
+                        <td><input type="hidden" id="escondido" name="oculto"></td>
                     </tr>
                     <tr>
                         <td><label for="clave">Clave: (type password)</label></td>
@@ -73,8 +73,8 @@
                         <td><label for="telefono">Teléfono: (type tel)</label></td>
                         <td><input type="tel" id="telefono" name="telefono" placeholder="Ej:91234567"></td>
                     <tr>
-                        <td><label for="web">Dirección web: (type web)</label></td>
-                        <td><input type="web" id="web" name="web"></td>
+                        <td><label for="web2">Dirección web: (type web)</label></td>
+                        <td><input type="web" id="web2" name="direccionWeb"></td>
                     </tr>
                     <tr>
                         <td><label for="archivo">Archivo: (type file)</label></td>
@@ -82,7 +82,7 @@
                     </tr>
                     <tr>
                         <td><label for="imagen">Imagen: (type image)</label></td>
-                        <td><input type="image" src="./img/libros.gif"></td>
+                        <td><input type="image" src="./img/libros.gif" alt="imagenLibro" id="imagen"></td>
                     </tr>
                     <tr>
                         <td><label for="asignaturas2">Elige una asignatura:</label></td>
@@ -96,7 +96,7 @@
                     </tr>
                     <tr>
                         <td><label for="eleccionasignaturas">Elige una provincia: (type list)</label></td>
-                        <td><input list="webs" id="asignaturas" name="eleccionasignaturas">
+                        <td><input list="webs" id="eleccionasignaturas" name="asignaturas">
                         <datalist id="webs">
                             <option>Madrid</option>
                             <option>Castilla-León</option>
@@ -106,10 +106,10 @@
                     </tr>
                     <tr>
                         <td><label for="areatexto">Comentarios: (type textarea)</label></td>
-                        <td><textarea cols="50" rows="6" placeholder="Escriba aquí su comentario..."></textarea></td>
+                        <td><textarea id="areatexto" cols="50" rows="6" placeholder="Escriba aquí su comentario..."></textarea></td>
                     </tr>
                     <tr>
-                        <td><label for="opciones">Radio: (type radio)</label></td>
+                        <td><label>Radio: (type radio)</label></td>
                         <td><label for="1">1</label><input type="radio" id="1" name="opciones">
                         <label for="2">2</label><input type="radio" id="2" name="opciones">
                         <label for="3">3</label><input type="radio" id="3" name="opciones">
@@ -119,17 +119,21 @@
                         <td><label>Botón (type buttom)</label>
                             <input type="button" value="pulsar">
                             <input type="button" value="pulsar"></td>
+                        <td></td>
                     </tr>
                     <tr>
                         <td><label>Borrado (type reset)</label>
                             <input type="reset" value="Restablecer">
                             <input type="reset" value="borrar"></td>
+                        <td></td>
                     </tr>
                     <tr>
                         <td><label>Envío (type submit)</label>
                             <input type="submit" value="Enviar">
-                            <input type="submit" value="Enviar"></td> 
+                            <input type="submit" value="Enviar"></td>
+                        <td></td> 
                     </tr>
+            </table>
             </fieldset>
         </form>
     </main>

@@ -12,7 +12,7 @@
     </header>
     <main>
         <label for="nombre">Nombre</label>
-        <div><input class="obligatorio" type="text" id="nombre" minlength="3" maxlength="75" pattern="([A-ZÁÉÍÓÚ ]+[a-záéíóú ]*)+ "></div>
+        <div><input id="obligatorio" type="text" id="nombre" minlength="3" maxlength="75" required pattern="([A-ZÁÉÍÓÚ ]+[a-záéíóú ]*)+ "></div>
         <br>
         <label for="apellidos">Apellidos</label>
         <div><input type="text" id="apellidos" required></div>
@@ -21,9 +21,9 @@
         <div><input type="password" id="clave" required></div>
         <br>
         <label for="dni">DNI</label>
-        <div><input class="obligatorio" type="text" id="dni" required maxlength="9" pattern="[0-9]{8}[A-Z]{1}" title="8 digitos y 1 letra"></div>
+        <div><input id="obligatorio2" type="text" id="dni" required maxlength="9" pattern="[0-9]{8}[A-Z]{1}" title="8 digitos y 1 letra"></div>
         <br>
-        <label for="opciones">Sexo</label>
+        <label>Sexo</label>
         <div><input type="radio" id="hombre" name="sexo" checked>
         <label for="hombre">Hombre</label></div>
         <div><input type="radio" id="mujer" name="sexo">
@@ -32,16 +32,17 @@
         <label for="foto">Incluir mi foto</label>
         <input type="file" id="foto" name="foto2" required>
         <br><br>
-        <input type="checkbox" checked required>
+        <input type="checkbox" id="boletin" checked required>
         <label for="boletin">Suscribirme al boletín de novedades</label>
         <br><br>
-        <label for="botones">
-            <input type="submit" value="Guardar datos" id="botones">
-            <input type="reset" value="Borrar los datos introducidos" id="botones">
+        <label for="boton1">
+            <input type="submit" value="Guardar datos" id="boton1"></label>
+        <label for="boton2">  
+            <input type="reset" value="Borrar los datos introducidos" id="boton2">
         </label>
     </main>
     <footer>
-        <div><a href="../../../index.html">Volver al índice de Git</href></div>
+        <div><a href="../../../index.html">Volver al índice de Git</a></div>
             <br>
         <div><a href="./validar.html">Siguiente formulario</a></div>
     </footer>

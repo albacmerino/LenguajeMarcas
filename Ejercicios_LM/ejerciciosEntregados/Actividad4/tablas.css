@@ -30,6 +30,9 @@
     text-align: center;
 }
 
+.ejercicio3 {
+    width: 100%;
+}
 .ejercicio3 tr, .ejercicio3 td{
     border: 1px solid blue;
 }
